@@ -3,4 +3,4 @@ project(ASSIGN2 C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(ASSIGN2 src/main.c)
+add_executable(ASSIGN2 src/main.c  src/leapyear.c inc/leapyear.h)
